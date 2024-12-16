@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolls-Royce - Luxury Redefined</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+            color: #333;
+        }
+        .navbar-brand img {
+            height: 150px;
+            width: 150px;
+        
+            
+        }
+        .main {
+            background: url('./Background_img.webp') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .nav-item:hover{
+            text-decoration: underline;
+
+        }
+        .main h1 {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .btn-luxury {
+            background-color: #dac511;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            transition: all 0.3s;
+        }
+        .btn-luxury:hover {
+            background-color: #0c0901;
+            color: white;
+        }
+        .car-img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: #D4AF37;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand col-md-4" href="#">
+                <img src="./Rolls-Royce_logo.svg" alt="Rolls-Royce Logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#models">MODELS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="text-white mb-4">Experience Unparalleled Luxury</h1>
+                    <p class="text-white mb-4">Rolls-Royce: Where engineering excellence meets timeless elegance.</p>
+                    <a href="#models" class="btn btn-luxury">Explore Our Models</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">About Rolls-Royce</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Rolls-Royce Motor Cars is a British luxury automobile maker. Established in 1904, Rolls-Royce has been creating the world's finest motor cars for over a century. Each Rolls-Royce motor car is hand-built to order, ensuring unparalleled quality and attention to detail.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Our commitment to excellence, innovation, and bespoke craftsmanship has made Rolls-Royce the ultimate symbol of automotive luxury. From the iconic Spirit of Ecstasy to the state-of-the-art technology within, every aspect of a Rolls-Royce is designed to provide an unmatched driving experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="models" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Our Models</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./Phantom.webp" class="card-img-top" alt="Rolls-Royce Phantom">
+                        <div class="card-body">
+                            <h5 class="card-title">Phantom</h5>
+                            <p class="card-text">The pinnacle of luxury, Phantom is the signature Rolls-Royce model that sets the standard for automotive excellence.</p>
+                            <a href="#" class="btn btn-luxury">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./ghost_img.jpg" class="card-img-top" alt="Rolls-Royce Ghost">
+                        <div class="card-body">
+                            <h5 class="card-title">Ghost</h5>
+                            <p class="card-text">Ghost offers a perfect balance of performance and comfort, designed for those who appreciate understated elegance.</p>
+                            <a href="#" class="btn btn-luxury">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./cullinan_img.jpg" class="card-img-top" alt="Rolls-Royce Cullinan">
+                        <div class="card-body">
+                            <h5 class="card-title">Cullinan</h5>
+                            <p class="card-text">Cullinan is the first all-terrain SUV from Rolls-Royce, bringing uncompromised luxury to any adventure.</p>
+                            <a href="#" class="btn btn-luxury">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Why Choose Rolls-Royce</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="feature-icon mb-3">
+                        <i class="bi bi-star-fill"></i>
+                        😀
+                    </div>
+                    <h4>Unmatched Quality</h4>
+                    <p>Every Rolls-Royce is meticulously crafted to the highest standards of quality and luxury.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="feature-icon mb-3">
+                        <i class="bi bi-gear-fill"></i>
+                        🚀
+                    </div>
+                    <h4>Engineering Excellence</h4>
+                    <p>Our vehicles are powered by cutting-edge technology and engineering innovations.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="feature-icon mb-3">
+                        <i class="bi bi-palette-fill"></i>
+                        🤖
+                    </div>
+                    <h4>Bespoke Customization</h4>
+                    <p>Tailor your Rolls-Royce to your exact specifications with our bespoke program.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-luxury">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Rolls-Royce Motor Cars. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
